@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+:root{
+    /* reg-400 med-500 */
+    --MonserratFonts: 'Montserrat'; 
+    --GilroyFonts: 'Gilroy';
+}
+
+
+
+body{
+    font-family: var(--GilroyFonts);
+}
